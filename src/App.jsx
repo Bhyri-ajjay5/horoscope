@@ -11,7 +11,7 @@ import Panchang from './pages/Panchang'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/horoscope">
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-grow page-transition">
